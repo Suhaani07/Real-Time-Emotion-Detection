@@ -1,0 +1,39 @@
+Prerequisites :
+Python, VS Code
+
+Download Requirements:
+In terminal (Terminal Tab+ New Terminal) ->
+pip install -r Requirements.txt
+
+Getting DataSet from Kaggle : Face Emotion Recognition dataset (has 36K images)
+Put it in the main working folder 
+Delete the sub images folder inside dataset folder
+Rename validation folder as 'test'
+
+Open Jupyter Notebook :
+In Terminal:
+jupyter notebook
+
+Make New notebook
+
+Write the Code
+
+Algorithm used :
+CNN - Convolution Neural Network
+
+Process :
+Make Data Frame (table) using Pandas
+DataFrame Structure : (Columns)
+
+images(Image path)          label(emotion)
+images/angry.img1.png       angry
+
+Then Process images :
+Convert images to array using tensorflow method : Load images (giving gray images)
+Make model(make different layers+train)
+
+Download the files with 74% accuracy
+
+Test model working
+
+Implement in real time image capturing 
